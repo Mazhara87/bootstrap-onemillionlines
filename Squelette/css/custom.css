@@ -58,31 +58,32 @@ hr{
 
 footer{
     background-color: #DC3545;
+    padding-top:  120px;
+    padding-left: 200px;
+    padding-bottom: 30px;
+    padding-right: 200px;
 }
 
-
-
-
-
-footer img{
-    position: relative;
-    top: 60%;
-    left: 15%;
-}
-/********************************************************
-*****************bouton retour***************************
-********************************************************/
-
-#back-to-top{
+div#back-to-top{
     position: fixed;
-    bottom: 50%; 
-    right: 0; 
+    bottom: 20px; 
+    right: 20px; 
 }
-
-#back-to-top a{
-    font-size: 24px;
-    text-decoration: none;
-    color: #000;
+.app{
+    height: 35px;
+    width: 20px;
+}
+.app svg{
+    fill: white
+}
+.circle-app{
+    height: 36px;
+    width: 36px;
+    background-color: #000;
+    border-radius: 1000%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
